@@ -1,0 +1,12 @@
+Package: SRE
+Type: Package
+Title: ACE estimator for Stratified Random Experiments
+Version: 0.1.0
+Author: Aditya Jhanwar
+Maintainer: <ajhanwar@berkeley.edu>
+Description: An implementation for calculating the 'average causal effect' 
+    estimator for both stratified and post-stratified randomized experiments 
+    using either Neymanian or Fisherian inference.
+License: MIT
+Encoding: UTF-8
+LazyData: true
