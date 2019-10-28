@@ -25,5 +25,5 @@ Neyman_SRE = function(z, y, x){
   }
 
   return(list('average.causal.effect' = sum(pi.k*tau.k),
-              'variance.estimator' = sum(pi.k^2*var.tau.k)))
+              'variance.estimator'    = sum(pi.k^2*var.tau.k)))
 }
